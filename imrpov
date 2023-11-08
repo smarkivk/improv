@@ -1,0 +1,34 @@
+Improvement Plan
+Core Java:
+1.	To update and practice java lang package especially with classes like String, Thread, Access Modifiers.
+2.	To update and practice usage of Exception Handling
+3.	To update and practice usage of Generics with Collections
+Database:
+4.	To update and practice usage of SQL with DDL, DML queries and using various default functions available (examples like DATE, to char, truncate)
+5.	To update and practice usage of PL/SQL with Stored procedures.
+Springboot:
+6.	To update and practice usage of Spring IOC and Dependency Injection, Spring Core with Context and Beans.
+7.	 To update and practice usage of Spring Web with REST services.
+Ok Case Study 1: Create a Rest service with name "Calculator" having an api call as "sum(input, input)". This api
+•	will accept 2 numbers and return the sum of numbers in response.
+•	will have validation along with any error messages.
+•	will have exception handling.
+         Case Study 2: Create a Rest service with name calService having a single api call as "sumWithDetails(input properties)". And sumWithDetails api call
+•	will accept 2 numbers and return the sum of numbers in response.
+•	will have respective validation, exception handling.
+•	will take current system time (format “dd/mm/yyyy” IST) and send in response.
+•	will take current system time and convert it to US time zone timestamp (format “mm/dd/yyyy” EDT) and send it in response.
+•	will give 3 values in response as sum, time in current time zone, time in US time zone.
+8.	To update and practice usage of “Spring JDBC” or “Spring JPA” (anyone). ->(pom xml) )in (app prop)
+Case Study 3: Create a Rest service with name "registration" having a single api call as "register (empNO, empName)". And register api call
+•	will accept two parameters employee name, employee number.
+•	will do validations for types/null and give error messages.
+•	will save to database. ( dao)
+•	will have exception handling.
+          Case Study 4: Create a Rest service with name "Employee Details" having a single api call as "getEmpDetails(empNO)". And getEmpDetails api call
+•	will access the same database to which Case Study 3 has saved the data to.
+•	will accept search param empNo
+•	will validate and give error messages when validation fails.
+•	will interact with database through Spring JDBC or Spring JPA.
+•	will return the obtained results empNO, empName in response.
+9.	To progress in Communication like interacting with fellow team members, networking with fellow associates and trainers/mentors
